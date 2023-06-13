@@ -67,11 +67,11 @@ print(area_of_circle)
 # Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
 # circumference = 2 * pi * r
 circum_of_circle = 2 * 3.1416 * 30.0
-print(circum_of_circle)
+print(circum_of_circle, 'Circum of circle')
 
 # Take radius as user input and calculate the area
 radius = input('Enter the value of radius: ')
-print(type(radius))
+print(type(radius), 'Radius')
 area_of_circle = 3.1416 * float(radius) ** 2
 print(area_of_circle)
 
